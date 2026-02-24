@@ -23,6 +23,8 @@ print("\n Duplicate rows:", df.duplicated().sum())
 print("\n Department Distribution: ", df["Department"].value_counts())
 print("\n Maximum Salary: \n", df.loc[(df.groupby("Department")["Salary"].idxmax()), ["FullName", "Department", "Salary"]])
 print("\n Minimum Salary: \n", df.loc[(df.groupby("Department")["Salary"].idxmin()), ["FullName", "Department", "Salary"]])
+total = df.groupby("Department")["Salary"].sum()
+print("\n Total Salary per dept. \n", total)
 
 # Visualisation
 
