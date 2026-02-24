@@ -9,4 +9,4 @@ This project focuses on exploratory data analysis (EDA) using Python and Pandas.
 - Summary statistics
 
 ## Goal
-Build strong foundations for my AI Engineer journey.
+Build strong foundations for my AI Engineer journey. Also updated the goal inorder to learn GIT.
