@@ -1,10 +1,10 @@
 import numpy as np
 
-x = np.random.randint(100)
+x = np.random.randint(10)
 
 z = True
 
-print("Guess number between 0 to 99")
+print("Guess number between 0 to 10")
 
 while(z):
     y = int(input("Enter a number to guess"))
